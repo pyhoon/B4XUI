@@ -1,0 +1,13 @@
+# ignore files
+*.zip
+
+# ignore ALL files in these directories
+AutoBackups/
+source/B4J/Objects/
+source/B4i/Objects/
+
+# Include drawable for B4A
+source/B4A/Objects/*
+!source/B4A/Objects/res/
+source/B4A/Objects/res/*
+!source/B4A/Objects/res/drawable/

@@ -30,7 +30,7 @@ Version=10.5
 '#Macro: Title, Step 1b, ide://run?File=%WINDIR%\explorer.exe&Args=%PROJECT%\..\B4i\$APPNAME$.b4i
 #Macro: Title, Step 1.c, ide://run?File=%COMSPEC%&Args=/c&Args=copy&Args=%PROJECT%\B4J.b4j&Args=%PROJECT%\$APPNAME$.b4j
 #Macro: Title, Step 2, ide://run?File=%WINDIR%\explorer.exe&Args=%PROJECT%\$APPNAME$.b4j
-#Macro: Title, Step 3, ide://run?File=%JAVABIN%\jar.exe&WorkingDirectory=..\..&Args=-cMf&Args=..\release\B4XUI.b4xtemplate&Args=B4A\Files&Args=B4i\Files&Args=B4J\Files&Args=B4A\$APPNAME$.b4a&Args=B4i\$APPNAME$.b4i&Args=B4J\$APPNAME$.b4j
+#Macro: Title, Step 3, ide://run?File=%JAVABIN%\jar.exe&WorkingDirectory=..\..&Args=-cMf&Args=..\release\B4XUI.b4xtemplate&Args=B4A\Files&Args=B4i\Files&Args=B4J\Files&Args=B4A\$APPNAME$.b4a&Args=B4A\Starter.bas&Args=B4i\$APPNAME$.b4i&Args=B4J\$APPNAME$.b4j
 #Macro: Title, Step 4, ide://run?File=%COMSPEC%&Args=/c&Args=copy&Args=%PROJECT%\..\..\release\B4XUI.b4xtemplate&Args=%ADDITIONAL%\..\B4X
 #Macro: Title, Step 5, ide://run?File=%WINDIR%\SysWOW64\explorer.exe&Args=%PROJECT%\..\..\release
 'For release
